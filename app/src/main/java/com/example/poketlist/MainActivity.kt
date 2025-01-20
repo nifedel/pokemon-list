@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             PoketListTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android1",
+                        name = "Android12",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
