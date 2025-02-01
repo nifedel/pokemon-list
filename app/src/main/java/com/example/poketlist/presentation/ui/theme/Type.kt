@@ -1,4 +1,4 @@
-package com.example.poketlist.ui.theme
+package com.example.poketlist.presentation.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
