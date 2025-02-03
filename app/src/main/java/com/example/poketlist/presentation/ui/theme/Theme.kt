@@ -1,4 +1,4 @@
-package com.example.poketlist.ui.theme
+package com.example.poketlist.presentation.ui.theme
 
 import android.app.Activity
 import android.os.Build
