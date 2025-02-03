@@ -1,8 +1,5 @@
-package com.example.poketlist.data.model.pokemonList
+package com.example.poketlist.domain.model.pokemonList
 
-import kotlinx.serialization.Serializable
-
-@Serializable
 data class PokeList(
     val count: Int,
     val next: String,

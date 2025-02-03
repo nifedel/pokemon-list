@@ -1,6 +1,6 @@
 package com.example.poketlist.domain.model.pokemonInfo
 
-data class TypeContainerDomain(
+data class TypeContainer(
     val slot: Int,
-    val type: TypeDomain
+    val type: Type
 )

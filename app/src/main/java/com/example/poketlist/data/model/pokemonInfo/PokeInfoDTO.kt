@@ -4,7 +4,7 @@ import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class PokeInfo(
+data class PokeInfoDTO(
     val abilities: List<AbilityDescription>,
     @SerialName("base_experience")
     val baseExperience: Int,
@@ -22,8 +22,8 @@ data class PokeInfo(
     val name: String,
     val order: Int,
     val species: Species,
-    val sprites: Sprites,
-    val statContainers: List<StatContainer>,
-    val typeContainers: List<TypeContainer>,
+    val spritesDTO: SpritesDTO,
+    val statContainersDTO: List<StatContainerDTO>,
+    val typeContainersDTO: List<TypeContainerDTO>,
     val weight: Int
 )

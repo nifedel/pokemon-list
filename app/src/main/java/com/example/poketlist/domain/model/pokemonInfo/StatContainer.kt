@@ -1,7 +1,7 @@
 package com.example.poketlist.domain.model.pokemonInfo
 
-data class StatContainerDomain(
+data class StatContainer(
     val baseStatValue: Int,
     val effort: Int,
-    val stat: StatDomain
+    val stat: Stat
 )

@@ -4,9 +4,9 @@ import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class StatContainer(
+data class StatContainerDTO(
     @SerialName("base_stat")
     val baseStatValue: Int,
     val effort: Int,
-    val stat: Stat
+    val statDTO: StatDTO
 )

@@ -1,5 +1,5 @@
 package com.example.poketlist.domain.model.pokemonInfo
 
-data class SpritesDomain(
+data class Sprites(
     val frontDefault: String
 )

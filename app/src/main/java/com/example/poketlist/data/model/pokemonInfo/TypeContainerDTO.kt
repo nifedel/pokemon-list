@@ -3,7 +3,7 @@ package com.example.poketlist.data.model.pokemonInfo
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class TypeContainer(
+data class TypeContainerDTO(
     val slot: Int,
-    val type: Type
+    val typeDTO: TypeDTO
 )
