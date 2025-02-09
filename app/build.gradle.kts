@@ -56,6 +56,9 @@ dependencies {
     //Serialization
     implementation(libs.jetbrains.kotlinx.serialization.json)
     implementation(libs.retrofit)
+    //For using serialization library with retrofit
+    implementation(libs.retrofit.converter.serialization)
+    implementation(libs.okhttp3)
 
 
     implementation(libs.androidx.core.ktx)
