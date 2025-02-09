@@ -1,6 +1,8 @@
 plugins {
     alias(libs.plugins.android.application)
-    alias(libs.plugins.jetbrains.kotlin.android)
+    alias(libs.plugins.org.jetbrains.kotlin.android)
+    alias(libs.plugins.jetbrains.kotlin.plugin.serialization)
+    alias(libs.plugins.compose.compiler)
 }
 
 android {
@@ -50,6 +52,14 @@ android {
 }
 
 dependencies {
+
+    //Serialization
+    implementation(libs.jetbrains.kotlinx.serialization.json)
+    implementation(libs.retrofit)
+    //For using serialization library with retrofit
+    implementation(libs.retrofit.converter.serialization)
+    implementation(libs.okhttp3)
+
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
